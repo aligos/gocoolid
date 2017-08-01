@@ -19,6 +19,6 @@ func generatePushID(n int) string {
 	return string(b)
 }
 
-func main() {
+func New() {
 	generatePushID(16)
 }
